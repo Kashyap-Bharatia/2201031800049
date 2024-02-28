@@ -1,0 +1,420 @@
+.breakfast-,
+.calories-tracker1,
+.home2 {
+  position: relative;
+  text-transform: capitalize;
+}
+.breakfast-,
+.calories-tracker1 {
+  display: inline-block;
+}
+.calories-tracker1 {
+  margin: 0;
+  height: 118px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.breakfast- {
+  height: 74px;
+}
+.lunch {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  min-width: 47px;
+  z-index: 1;
+}
+.breakfast,
+.lunch-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.lunch-wrapper {
+  width: 79px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+}
+.breakfast {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 15px;
+}
+.lunch-,
+.morning-snacks- {
+  height: 81px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.lunch- {
+  height: 74px;
+}
+.water-tracker-section {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  min-width: 47px;
+  z-index: 1;
+}
+.water-tracker-section-wrapper {
+  width: 79px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.water-tracker-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 15px;
+  margin-top: -30px;
+}
+.evening-snacks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: -22px;
+}
+.dinner-,
+.evening-snacks- {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.evening-snacks- {
+  height: 81px;
+  white-space: pre-wrap;
+}
+.dinner- {
+  height: 73px;
+}
+.glass-tracker-child {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  min-width: 47px;
+  z-index: 1;
+}
+.glass-tracker,
+.lunch-box {
+  display: flex;
+  justify-content: flex-start;
+}
+.glass-tracker {
+  width: 79px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.lunch-box {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 13px;
+  margin-top: -30px;
+}
+.snack-tracker {
+  margin-top: -22px;
+}
+.breakfast-parent,
+.snack-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangles-pair,
+.rectangles-pair1 {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  min-width: 47px;
+}
+.double-frames {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 59px 0;
+}
+.dinner-text,
+.double-frames,
+.double-frames-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.double-frames-wrapper {
+  width: 79px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.dinner-text {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 13px;
+  max-width: 100%;
+}
+.third-rectangle-icon {
+  align-self: stretch;
+  height: 374px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.lunch-text {
+  width: 617px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px 0;
+  max-width: 100%;
+}
+.lunch-text-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -38px;
+  font-size: var(--font-size-11xl);
+}
+.breakfast-text,
+.calories-tracker,
+.lunch-text-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.breakfast-text {
+  width: 683px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.calories-tracker {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-29xl);
+}
+.home-group,
+.tracker-page-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.home-group {
+  align-self: stretch;
+  gap: 143px 0;
+}
+.tracker-page-inner {
+  flex: 1;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 474px;
+}
+.water-tracker1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+}
+.water-tracker-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.number-of-glasses {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+}
+.water-rectangle {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  width: 79px;
+  position: relative;
+}
+.glass-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  max-width: 100%;
+}
+.last-frame-icon {
+  height: 527px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.fourth-rectangle {
+  width: 519px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.glass-count {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px 0;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.glass-count,
+.tracker-page,
+.water-tracker {
+  display: flex;
+  justify-content: flex-start;
+}
+.water-tracker {
+  flex-direction: column;
+  align-items: center;
+  gap: 19px 0;
+  min-width: 553px;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+}
+.tracker-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #68d573,
+    rgba(116, 216, 126, 0.92) 99.99%,
+    rgba(255, 255, 255, 0)
+  );
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-20xl) var(--padding-37xl) 0;
+  box-sizing: border-box;
+  gap: 0 119px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+@media screen and (max-width: 1125px) {
+  .water-tracker {
+    flex: 1;
+  }
+  .tracker-page {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .home2 {
+    font-size: var(--font-size-5xl);
+  }
+  .calories-tracker1 {
+    font-size: var(--font-size-19xl);
+  }
+  .breakfast-,
+  .dinner-,
+  .evening-snacks-,
+  .lunch-,
+  .morning-snacks- {
+    font-size: var(--font-size-5xl);
+  }
+  .water-tracker1 {
+    font-size: var(--font-size-19xl);
+  }
+  .number-of-glasses {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .home-group {
+    gap: 143px 0;
+  }
+  .tracker-page-inner {
+    min-width: 100%;
+  }
+  .glass-frame {
+    flex-wrap: wrap;
+  }
+  .water-tracker {
+    min-width: 100%;
+  }
+  .tracker-page {
+    gap: 0 119px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home2 {
+    font-size: var(--font-size-lg);
+  }
+  .calories-tracker1 {
+    font-size: var(--font-size-10xl);
+  }
+  .breakfast-,
+  .dinner-,
+  .evening-snacks-,
+  .lunch-,
+  .morning-snacks- {
+    font-size: var(--font-size-lg);
+  }
+  .dinner-text {
+    flex-wrap: wrap;
+  }
+  .home-group {
+    gap: 143px 0;
+  }
+  .water-tracker1 {
+    font-size: var(--font-size-10xl);
+  }
+  .number-of-glasses {
+    font-size: var(--font-size-lg);
+  }
+  .tracker-page {
+    gap: 0 119px;
+  }
+}
