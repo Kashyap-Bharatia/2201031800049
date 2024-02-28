@@ -1,0 +1,408 @@
+.phone-number1,
+.user-name {
+  text-transform: capitalize;
+  z-index: 1;
+}
+.user-name {
+  width: 203px;
+  height: 71px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.phone-number1 {
+  position: absolute;
+  margin: 0 !important;
+  top: -26px;
+  left: 0;
+}
+.home-tracker-child,
+.premium-status-child {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-6xl);
+  display: none;
+}
+.home-tracker-child {
+  width: 789px;
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.premium-status-child {
+  height: 895px;
+  background-color: var(--color-gainsboro);
+}
+.home {
+  width: 120px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 3;
+}
+.premium,
+.tracker,
+.your-current-plan {
+  position: relative;
+  text-transform: capitalize;
+  margin-top: -25px;
+}
+.tracker {
+  width: 151px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 2;
+}
+.premium,
+.your-current-plan {
+  z-index: 3;
+}
+.premium {
+  width: 173px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  z-index: 4;
+}
+.home-parent,
+.premium-status-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.premium-status-inner {
+  flex-direction: row;
+  padding: 0 11px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logout-icon {
+  height: 76px;
+  width: 77px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.help-and-support {
+  position: relative;
+  text-transform: capitalize;
+  z-index: 2;
+}
+.help-and-support-wrapper,
+.settings {
+  display: flex;
+  justify-content: flex-start;
+}
+.help-and-support-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.settings {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 15px;
+}
+.rectangle-icon,
+.setting {
+  position: relative;
+  z-index: 2;
+}
+.rectangle-icon {
+  height: 76px;
+  width: 77px;
+  object-fit: cover;
+}
+.setting {
+  text-transform: capitalize;
+}
+.help-support,
+.rectangle-container,
+.setting-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.setting-wrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.help-support,
+.rectangle-container {
+  flex-direction: row;
+  gap: 0 15px;
+}
+.help-support {
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 22px 0;
+  min-height: 282px;
+  max-width: 100%;
+}
+.logout-button-icon {
+  height: 76px;
+  width: 77px;
+  position: relative;
+  object-fit: cover;
+  min-height: 76px;
+  z-index: 2;
+}
+.log-out {
+  position: relative;
+  text-transform: capitalize;
+  z-index: 2;
+}
+.logout-button-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 15px;
+}
+.premium-status {
+  width: 720px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  gap: 143px 0;
+  z-index: 1;
+}
+.frame-b,
+.home-tracker,
+.phone-number,
+.premium-status {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.home-tracker {
+  flex: 1;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-end;
+  min-height: 948px;
+}
+.frame-b,
+.phone-number {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.phone-number {
+  flex-direction: row;
+  position: relative;
+}
+.frame-b {
+  flex-direction: column;
+  gap: 3px 0;
+}
+.frame-a,
+.track-your-intake1 {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.frame-a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  min-width: 513px;
+  flex-shrink: 0;
+}
+.track-your-intake1 {
+  width: 468px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  filter: blur(4px);
+  padding-left: var(--padding-xl);
+}
+.track-your-intake-in-detail-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.calories-taken1 {
+  position: relative;
+  text-transform: capitalize;
+  filter: blur(4px);
+}
+.logged-out-state {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.setting-menu-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.setting-menu {
+  width: 417px;
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.glasses-of-water1 {
+  position: relative;
+  text-transform: capitalize;
+  filter: blur(4px);
+}
+.setting-child {
+  height: 304px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.setting1,
+.water-drank {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.setting1 {
+  width: 306px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.water-drank {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+}
+.frame-div,
+.navigation-bar-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-div {
+  width: 546px;
+  flex-direction: column;
+  gap: 78px 0;
+  min-width: 546px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.navigation-bar-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #68d573,
+    rgba(116, 216, 126, 0.92) 99.99%,
+    rgba(255, 255, 255, 0)
+  );
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: 0 99px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+@media screen and (max-width: 1125px) {
+  .frame-div {
+    flex: 1;
+  }
+  .navigation-bar-page {
+    flex-wrap: wrap;
+    padding-left: var(--padding-7xs);
+    padding-bottom: var(--padding-7xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .calories-taken1,
+  .glasses-of-water1,
+  .help-and-support,
+  .home,
+  .log-out,
+  .phone-number1,
+  .premium,
+  .setting,
+  .track-your-intake1,
+  .tracker,
+  .user-name,
+  .your-current-plan {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-a,
+  .frame-div {
+    min-width: 100%;
+  }
+  .frame-div {
+    gap: 78px 0;
+  }
+  .navigation-bar-page {
+    gap: 0 99px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .help-and-support,
+  .home,
+  .phone-number1,
+  .premium,
+  .tracker,
+  .user-name,
+  .your-current-plan {
+    font-size: var(--font-size-lg);
+  }
+  .settings {
+    flex-wrap: wrap;
+  }
+  .log-out,
+  .setting {
+    font-size: var(--font-size-lg);
+  }
+  .premium-status {
+    gap: 143px 0;
+  }
+  .calories-taken1,
+  .glasses-of-water1,
+  .track-your-intake1 {
+    font-size: var(--font-size-lg);
+  }
+  .frame-div {
+    gap: 78px 0;
+  }
+  .navigation-bar-page {
+    gap: 0 99px;
+  }
+}

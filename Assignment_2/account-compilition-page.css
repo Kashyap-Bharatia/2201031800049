@@ -1,0 +1,329 @@
+.account-compilition-page-child {
+  height: 193px;
+  width: 197px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-div {
+  width: 1000px;
+  height: 958px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.to-complete-your {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.to-complete-your-account-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.we-need-some {
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+  margin: -55px 0 0;
+}
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.line-icon {
+  width: 603px;
+  height: 2px;
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -23px;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  min-height: 208px;
+  max-width: 100%;
+}
+.age-,
+.rectangle-data {
+  position: relative;
+  z-index: 1;
+}
+.age- {
+  text-transform: capitalize;
+}
+.rectangle-data {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  flex: 1;
+  min-width: 188px;
+}
+.age-parent {
+  width: 416px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 28px;
+  max-width: 100%;
+}
+.height-,
+.rectangle-input {
+  position: relative;
+  z-index: 1;
+}
+.height- {
+  text-transform: capitalize;
+}
+.rectangle-input {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  flex: 1;
+  min-width: 188px;
+}
+.height-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 15px;
+}
+.weight-,
+.weight-frame {
+  position: relative;
+  z-index: 1;
+}
+.weight- {
+  text-transform: capitalize;
+}
+.weight-frame {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  height: 44px;
+  min-width: 174px;
+}
+.weight-frame-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+}
+.age-height-weight-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+}
+.age-height-weight,
+.frames-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.age-height-weight {
+  width: 453px;
+  flex-direction: column;
+}
+.frames-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 99px;
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+}
+.goal-you-want {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frame-child1 {
+  width: 603px;
+  height: 2px;
+  position: relative;
+  object-fit: contain;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -29px;
+}
+.goal-you-want-to-reach-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 124px;
+  max-width: 100%;
+}
+.weight-you-want {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.target-weight {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro);
+  height: 44px;
+  width: 290px;
+  position: relative;
+  z-index: 1;
+}
+.weight-you-want-to-loss-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 15px;
+  max-width: 100%;
+}
+.goal-reach {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.account-compilition-page,
+.goal-reach,
+.rectangle-group {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-group {
+  width: 1000px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  flex-direction: column;
+  align-items: center;
+  padding: 0 73px 81px 74px;
+  gap: 46px 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inknut-antiqua);
+}
+.account-compilition-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #68d573,
+    rgba(121, 218, 131, 0.89) 99.97%,
+    rgba(145, 224, 153, 0.73) 99.98%,
+    rgba(166, 230, 173, 0.59) 99.99%,
+    rgba(255, 255, 255, 0)
+  );
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xl) var(--padding-4xl) var(--padding-22xl);
+  letter-spacing: normal;
+  row-gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .account-compilition-page {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .to-complete-your,
+  .we-need-some {
+    font-size: var(--font-size-19xl);
+  }
+  .age-,
+  .height-,
+  .weight- {
+    font-size: var(--font-size-5xl);
+  }
+  .goal-you-want {
+    font-size: var(--font-size-19xl);
+  }
+  .weight-you-want {
+    font-size: var(--font-size-5xl);
+  }
+  .weight-you-want-to-loss-parent {
+    flex-wrap: wrap;
+  }
+  .rectangle-group {
+    padding-left: 37px;
+    padding-right: 36px;
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .age-height-weight-frame,
+  .age-parent,
+  .height-parent {
+    flex-wrap: wrap;
+  }
+  .rectangle-group {
+    gap: 46px 0;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .to-complete-your,
+  .we-need-some {
+    font-size: var(--font-size-10xl);
+  }
+  .age-,
+  .height-,
+  .weight- {
+    font-size: var(--font-size-lg);
+  }
+  .goal-you-want {
+    font-size: var(--font-size-10xl);
+  }
+  .weight-you-want {
+    font-size: var(--font-size-lg);
+  }
+}

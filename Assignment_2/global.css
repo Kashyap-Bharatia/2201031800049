@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inknut-antiqua: "Inknut Antiqua";
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-3xl: 22px;
+  --font-size-10xl: 29px;
+  --font-size-11xl: 30px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+  --font-size-19xl: 38px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-seagreen: #3d7933;
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-xl: 20px;
+  --gap-12xl: 31px;
+  --gap-56xl: 75px;
+  --gap-27xl: 46px;
+  --gap-59xl: 78px;
+  --gap-10xs: 3px;
+  --gap-124xl: 143px;
+  --gap-33xl: 52px;
+
+  /* Paddings */
+  --padding-7xs: 6px;
+  --padding-lgi: 19px;
+  --padding-mini: 15px;
+  --padding-xl: 20px;
+  --padding-6xs: 7px;
+  --padding-6xl: 25px;
+  --padding-22xl: 41px;
+  --padding-13xl: 32px;
+  --padding-mid: 17px;
+  --padding-10xs: 3px;
+  --padding-11xs: 2px;
+  --padding-4xl: 23px;
+  --padding-107xl: 126px;
+  --padding-34xl: 53px;
+  --padding-37xl: 56px;
+  --padding-8xs: 5px;
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+  --padding-20xl: 39px;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+}
